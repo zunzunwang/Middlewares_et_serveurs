@@ -1,0 +1,10 @@
+
+public class Adresse {
+	public Adresse(){
+		
+	}
+	
+	public static final int port = 18500  ;
+	public static final String ip = "127.0.0.1";
+
+}
