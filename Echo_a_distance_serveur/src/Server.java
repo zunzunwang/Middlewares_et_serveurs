@@ -24,6 +24,7 @@ public class Server {
 			echo = new RemoteEchoImpl();
 			String rebindName =adresse.ID;
 			//把远程对象注册到RMI注册服务器上，
+			//注册时需要三个元素 1.端口号 2.远程的一个实例 3.实例的名字
 			registry.rebind(rebindName, echo);
 			System.out.println("Object Echo ok");
 		}catch (AccessException e) {

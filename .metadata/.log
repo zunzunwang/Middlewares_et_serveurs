@@ -137,3 +137,12 @@ org.eclipse.core.runtime.CoreException: Cannot determine URI for '/Echo_a_distan
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
 !SUBENTRY 1 org.eclipse.core.filebuffers 4 0 2015-11-04 13:56:47.250
 !MESSAGE Cannot determine URI for '/Echo_a_distance/src/Client.java'.
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2015-11-04 15:20:57.118
+!MESSAGE jre:jre:call:zip:1.0.0 could not be resolved from model repositories. Are you offline?
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2015-11-04 15:21:37.399
+!MESSAGE jre:jre:call:zip:1.0.0 could not be resolved from model repositories. Are you offline?
+
+!ENTRY org.eclipse.recommenders.models.rcp 1 0 2015-11-04 15:21:48.031
+!MESSAGE jre:jre:call:zip:1.0.0 could not be resolved from model repositories. Are you offline?
