@@ -1,0 +1,30 @@
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+import java.util.Collection;
+
+public class RemoteAnnuaireImpl extends UnicastRemoteObject implements RemoteAnnuaire {
+
+	@Override
+	public void ajouterPersonne(Personne personne) throws RemoteException {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public Collection<Personne> chercherPersonne(String nom, String prenom)
+			throws RemoteException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Collection<Personne> listePersonnes() throws RemoteException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void supprimerPersonne(Personne personne) throws RemoteException {
+		// TODO Auto-generated method stub
+		
+	}
